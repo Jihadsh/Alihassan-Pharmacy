@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pharmacy</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="top">
+
+<header class="header">
+  <div class="container header__inner">
+
+    <a class="logo" href="#top" aria-label="logo">
+      <span class="logo__name">ALIHASSAN</span>
+      <span class="logo__ux">UX</span>
+    </a>
+
+    <nav class="nav" aria-label="Main Navigation">
+      <a class="nav__link nav__link--active" href="#home">Home</a>
+      <a class="nav__link" href="#services">Services</a>
+      <a class="nav__link" href="#speciality">Speciality</a>
+      <a class="nav__link" href="#blog">Blog</a>
+      <a class="nav__link" href="#about">Aboutus</a>
+      <a class="nav__link" href="#contact">Contact</a>
+    </nav>
+
+    <a class="btn btn--outline" href="#contact">Get in Touch</a>
+
+  </div>
+</header>
+
+<main id="home">
+
+  <!-- HERO + CARDS -->
+  <section class="hero">
+    <div class="container">
+
+      <div class="hero-shell">
+        <div class="hero-inner">
+          <h1 class="hero-bg">Pharmacy</h1>
+
+          <p class="hero-text">
+            Operational bottlenecks, frequent billing errors,
+            and mismanaged schedules can lead to revenue
+            loss and frustrated patients.
+          </p>
+
+          <img src="images/hero.svg" class="hero-person" alt="doctor" />
+
+          <a class="hero-btn" href="#book" aria-label="Book appointment">
+            <span>Book Appointment</span>
+            <span class="circle">+</span>
+          </a>
+        </div>
+
+        <div class="cards-box">
+          <div class="cards">
+            <article class="card yellow">
+              <h3>Operational Inefficiencies</h3>
+              <p>Disjointed processes and workflows</p>
+              <span class="card__icon" aria-hidden="true"></span>
+            </article>
+
+            <article class="card mint">
+              <h3>Staff Overload</h3>
+              <p>Increased administrative burdens on your team</p>
+              <span class="card__icon" aria-hidden="true"></span>
+            </article>
+
+            <article class="card pink">
+              <h3>Financial Management Issues</h3>
+              <p>Difficulties in tracking and managing finances</p>
+              <span class="card__icon" aria-hidden="true"></span>
+            </article>
+
+            <article class="card blue">
+              <h3>Patient Scheduling Problems</h3>
+              <p>Inefficient appointment scheduling and follow-ups</p>
+              <span class="card__icon" aria-hidden="true"></span>
+            </article>
+          </div>
+
+          <div class="cards-controls" aria-hidden="true">
+            <div class="btn-circle">+</div>
+
+            <div class="pager">
+              <span class="pager__bar pager__bar--active"></span>
+              <span class="pager__bar"></span>
+              <span class="pager__bar"></span>
+              <span class="pager__bar"></span>
+            </div>
+
+            <div class="btn-circle">+</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SOLUTIONS -->
+  <section class="section section--soft" id="speciality">
+    <div class="container solutions">
+      <div class="solutions__img">
+        <img src="images/solutions.svg" alt="Team meeting" />
+      </div>
+
+      <div class="solutions__content">
+        <span class="chip">SOLUTIONS</span>
+        <h2 class="h2">Transform Your Practice with Our AI-Inclusive Management Solutions</h2>
+        <p class="p">
+          True Care Medical Billing offers a robust practice management solution
+          designed to address these challenges and optimize your practice operations.
+          Our services streamline workflows, improve financial management, and enhance patient
+          care, allowing you to focus on what matters most — providing exceptional healthcare.
+        </p>
+
+        <a class="btn btn--primary" href="#book">
+          Book Appointment <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- HOW IT WORKS -->
+  <section class="section">
+    <div class="container how">
+      <h2 class="how__title">
+  Step-by-Step Guide to Our
+  <span class="how__avatar">
+    <img src="images/avatar.svg" alt="avatar">
+  </span>
+  Practice<br>
+  Management Process
+</h2>
+
+
+      <div class="how__grid">
+        <div class="how__left">
+          <div class="howcard howcard--yellow">
+            <img src="images/how1.svg" alt="Practice" />
+          </div>
+
+          <div class="howcard howcard--mint">
+            <div class="howcard__label">How It<br/>Works?</div>
+            <img src="images/how2.svg" alt="How it works" />
+          </div>
+        </div>
+
+        <div class="how__right">
+          <details class="acc acc--active" open>
+            <summary class="acc__sum">
+              <span class="acc__num">01</span>
+              <span class="acc__name">Initial Assessment</span>
+              <span class="acc__icon">⌃</span>
+            </summary>
+            <div class="acc__body">
+              Evaluate your current practice operations and identify areas for improvement.
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary class="acc__sum">
+              <span class="acc__num">02</span>
+              <span class="acc__name">Customized Solution Design</span>
+              <span class="acc__icon">⌄</span>
+            </summary>
+            <div class="acc__body">
+              We design a tailored workflow and billing strategy based on your clinic needs.
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary class="acc__sum">
+              <span class="acc__num">03</span>
+              <span class="acc__name">Implementation</span>
+              <span class="acc__icon">⌄</span>
+            </summary>
+            <div class="acc__body">
+              Deploy tools, processes, and schedule optimization for a smooth rollout.
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary class="acc__sum">
+              <span class="acc__num">04</span>
+              <span class="acc__name">Staff Training</span>
+              <span class="acc__icon">⌄</span>
+            </summary>
+            <div class="acc__body">
+              Train your staff on new processes and systems to reduce admin load.
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary class="acc__sum">
+              <span class="acc__num">05</span>
+              <span class="acc__name">Ongoing Support</span>
+              <span class="acc__icon">⌄</span>
+            </summary>
+            <div class="acc__body">
+              Continuous help and adjustments to keep performance high.
+            </div>
+          </details>
+
+          <details class="acc">
+            <summary class="acc__sum">
+              <span class="acc__num">06</span>
+              <span class="acc__name">Performance Monitoring</span>
+              <span class="acc__icon">⌄</span>
+            </summary>
+            <div class="acc__body">
+              Monitor KPIs and optimize workflows, scheduling, and billing quality.
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- WHY LOVE -->
+  <section class="section section--soft">
+    <div class="container love">
+      <h2 class="love__title">Why You’ll Love Our Practice Management Services?</h2>
+      <p class="love__sub">
+        By outsourcing your practice management to True Care Medical Billing, you gain access
+        to expert solutions that streamline operations, enhance efficiency, and reduce
+        administrative burdens. It allows you to focus on providing exceptional patient care
+        while we handle the details. Here’s why you’ll love our practice management solutions.
+      </p>
+
+      <div class="love__grid">
+        <article class="lovebox lovebox--active">
+          <div class="lovebox__badge">01</div>
+          <h3 class="lovebox__h">Improve Efficiency:</h3>
+          <p class="lovebox__p">Streamline workflows and reduce operational bottlenecks</p>
+        </article>
+
+        <article class="lovebox">
+          <div class="lovebox__badge lovebox__badge--gray">02</div>
+          <h3 class="lovebox__h">Enhance Financial Performance:</h3>
+          <p class="lovebox__p">Gain better control over finances and improve revenue management</p>
+        </article>
+
+        <article class="lovebox">
+          <div class="lovebox__badge lovebox__badge--gray">03</div>
+          <h3 class="lovebox__h">Optimize Scheduling:</h3>
+          <p class="lovebox__p">Ensure effective appointment scheduling and patient follow-ups</p>
+        </article>
+
+        <article class="lovebox">
+          <div class="lovebox__badge lovebox__badge--gray">04</div>
+          <h3 class="lovebox__h">Ensure Compliance:</h3>
+          <p class="lovebox__p">Stay compliant with regulatory requirements and avoid penalties</p>
+        </article>
+
+        <article class="lovebox">
+          <div class="lovebox__badge lovebox__badge--gray">05</div>
+          <h3 class="lovebox__h">Boost Staff Productivity:</h3>
+          <p class="lovebox__p">Reduce administrative burdens and focus staff on patient care</p>
+        </article>
+
+        <article class="lovebox">
+          <div class="lovebox__badge lovebox__badge--gray">06</div>
+          <h3 class="lovebox__h">Leverage Technology:</h3>
+          <p class="lovebox__p">Utilize advanced practice management tools and software</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container faq">
+      <h2 class="faq__title">Frequently Asked Questions</h2>
+
+      <details class="faqitem">
+        <summary>How do you assess my practice’s needs?</summary>
+        <div class="faqitem__body">We review workflows, billing, schedules, and performance indicators.</div>
+      </details>
+
+      <details class="faqitem">
+        <summary>What kind of support do you offer after implementation?</summary>
+        <div class="faqitem__body">Ongoing support, monitoring, and continuous optimization.</div>
+      </details>
+
+      <details class="faqitem">
+        <summary>Can your practice management services help with compliance issues?</summary>
+        <div class="faqitem__body">Yes, we align processes with regulatory requirements and best practices.</div>
+      </details>
+
+      <details class="faqitem">
+        <summary>How do you integrate with existing practice management software?</summary>
+        <div class="faqitem__body">We integrate through workflows and tools compatible with your current stack.</div>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer class="footer" id="contact">
+  <div class="container footer__inner">
+
+    <div class="footcol">
+      <div class="footbrand">
+        <span class="footbrand__name">ALIHASSAN</span>
+        <span class="footbrand__ux">UX</span>
+      </div>
+
+      <p class="foottext">
+        We’ll show you exactly how you can achieve 30% increase in revenue and a 25% cost
+        reduction within 120 days — while focusing more on your patients.
+      </p>
+
+      <div class="social-icons">
+        <a href="#"><img src="images/icons/facebook.png" alt="facebook"></a>
+        <a href="#"><img src="images/icons/youtube.png" alt="youtube"></a>
+        <a href="#"><img src="images/icons/instagram.png" alt="instagram"></a>
+        <a href="#"><img src="images/icons/linkedin.png" alt="linkedin"></a>
+      </div>
+
+      <div class="footmeta">
+        <div>📍 22 Main Street, 12345 Pakistan</div>
+        <div>✉ alihxxxx@gmail.com</div>
+        <div>📞 123-456-7890</div>
+      </div>
+    </div>
+
+    <div class="footcol">
+      <h4>Our Services</h4>
+      <a href="#">Medical Billing</a>
+      <a href="#">Medical Coding</a>
+      <a href="#">Revenue Cycle Management</a>
+      <a href="#">Practice Management</a>
+      <a href="#">Account Receivables</a>
+      <a href="#">Patient Accounts</a>
+      <a href="#">Medical Virtual Staffing (Remote)</a>
+    </div>
+
+    <div class="footcol">
+      <h4>Customer Support</h4>
+      <a href="#">FAQs</a>
+      <a href="#">Knowledge Base</a>
+      <a href="#">Privacy policy</a>
+      <a href="#">Terms and Conditions</a>
+    </div>
+
+    <div class="footcol">
+      <h4>Useful Links</h4>
+      <a href="#">Careers</a>
+      <a href="#">Contact us</a>
+      <a href="#">Unsubscribe</a>
+    </div>
+
+  </div>
+
+  <div class="container footer__bottom">
+    <span>© 2026 All Rights Reserved</span>
+    <a class="backtop" href="#top">Back To Top <span>→</span></a>
+  </div>
+</footer>
+
+</body>
+</html>
